@@ -1,0 +1,42 @@
+
+
+
+.resizeimg {
+	position:absolute;
+	left: 50%;
+	top: 10px;
+	margin-left: -125px;
+	z-index:99999;
+}
+
+
+
+
+/*******************
+	-	CONTENT	-	
+*******************/	
+/* Centered Container for all Content*/
+#content_wrap{
+	width:1000px;
+	padding-top: 10px;
+	z-index:5;
+	margin:0px auto;
+	
+}
+
+.example-wrapper{
+	z-index:3;
+	position:relative;
+	width:100%;
+	margin:auto;
+	padding:0px;
+	margin-bottom:20px;
+	}
+
+
+#products{
+	width:100%;
+	height:auto;
+	position:relative;		
+}
+

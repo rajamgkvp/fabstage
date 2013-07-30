@@ -1,0 +1,27 @@
+/*Flicker Common*/
+.top-slider{ width:100%; float:left; margin:0px; position:relative; z-index:1;}
+.top-slider .flicker { margin:0px; padding:0px; width:100%; float:left;  position:relative;  }
+.top-slider .flicker ul { width:100%; overflow: hidden; padding:0px; margin:0px; }
+.top-slider .flicker .multiple li { width:100%; float:left;  }
+.top-slider .flicker .multiple li img { border:none; width:100%; }
+.top-slider .flicker .bx-wrapper { margin: 0 auto; }
+
+
+.Testimonials .flicker .multiple li a.test-img{ float:left; margin:4px 18px 0px 0px;}
+.Testimonials .flicker .multiple li a.test-img img{ width:auto;}
+.Testimonials .flicker .multiple li h4{ margin-bottom:4px;}
+.Testimonials .flicker .multiple li p{ line-height:18px; color:#818181; font-size:12px;}
+
+.recruiters-slider{ width:100%; float:left; padding:10px 0px; position:relative; z-index:1;}
+.recruiters-slider .flicker { margin:0px 0px 0px 47px; padding:0px; width:490px; float:left;  position:relative;  }
+.recruiters-slider .flicker ul { width:100%; overflow: hidden; padding:0px; margin:0px; }
+.recruiters-slider .flicker .multiple li { width:100%; float:left;}
+.recruiters-slider .flicker .multiple li img { border:solid 1px #FFFFFF; }
+.recruiters-slider .flicker .bx-wrapper { margin: 0 auto; }
+.recruiters-slider .bx-controls-direction .bx-prev, .recruiters-slider .bx-controls-direction .bx-next{position:absolute; top:29px; overflow:hidden; width:32px; height:58px; display:block; text-indent:150px;}
+.recruiters-slider .bx-controls-direction .bx-prev{ background:url(../images/flicker-arrow.png) top left no-repeat; left:-47px;}
+.recruiters-slider .bx-controls-direction .bx-next{ background:url(../images/flicker-arrow.png) top right no-repeat; right:-44px;}
+
+
+
+

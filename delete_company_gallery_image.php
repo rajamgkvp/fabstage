@@ -1,0 +1,13 @@
+<?
+error_reporting(0);
+include('constants.php');
+
+$id=$_REQUEST['image_id'];
+
+$qry="DELETE FROM fs_company_portfolio WHERE fld_id =".$id."";
+q($qry) or die("error");
+
+?>
+<script language="javascript">
+	window.location.href="company_gallery.php?$msg=del";
+</script>

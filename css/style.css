@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	color:#3f3f3f;
+	background:#ffffff url(../images/bg.jpeg) center top no-repeat fixed;
+	}
+a {
+	outline:none;
+	text-decoration:none;
+	color:#3b8eba;
+	}
+a:hover {
+	color:#3f3f3f;
+	}
+img {
+	border:none;
+	}
+* {
+	padding:0px;
+	margin:0px;
+	}
+p {
+	font-size:12px;
+	color:#3f3f3f;
+	}
+ul, li, p, h1, h2, h3, h4, h5, h6, h7, form, input {
+}
+ul, li {
+	list-style:none;
+	float:left;
+	}
+.clear {
+	clear:both;
+	margin:0px;
+	padding:0px;
+	height:0px;
+	line-height:0px;
+	}
+
+#main_container{width:100%; margin:0px;	padding:0px;}
+.header{width:1000px; margin:0px auto;}
+.fabstage_logo{width:auto; float:left; margin:35px 30px 0px 10px;}
+.header_right{width:auto; float:left; margin-top:15px;}
+.head_input{width:218px; height:29px; float:left; background:url(../images/head_input.png) left top repeat-x; border:1px #d8d8d8 solid; color:#a4a4a4; padding-left:10px; margin-right:5px;}
+.head_signin{width:87px; height:31px; float:left; background:url(../images/sign_btn_bg.png) left top repeat-x; border:1px #1e719d solid; font-size:15px; text-align:center; color:#fff; margin-right:5px; padding-bottom:4px; cursor:pointer;}
+.head_signin:hover{background:url(../images/sign_btn_bg_hover.png) left top repeat-x;}
+
+.head_login{width:auto; float:left; font-weight:bold; color:#fff; line-height:31px; padding-left:6px;}
+.head_fb{width:auto; float:left; margin-left:7px; margin-top:5px;}
+.header_forgot{width:auto; float:left; margin-top:8px;}
+.head_loggedin{width:235px; float:left; color:#fff;}
+.head_loggedin a{color:#fff;}
+.head_loggedin a:hover{color:#3b8eba;}
+.head_checkbox{width:auto; float:left; margin:2px 5px 0px 0px;}
+.head_like{width:auto; float:right; clear:both; margin:10px 0px 5px 0px;}
+
+.navigation{background:url(../images/nav_bg.png) left top repeat-x; height:35px; clear:both;}
+.nav{width:1000px; margin:0px auto;}
+
+.main_body{width:1000px; margin:0px auto; margin-top:15px;}
+.body_left{width:715px; float:left;}
+.talent_area{background:#f1f1f1; float:left; width:100%;}
+.talent_text{width:176px; float:left;}
+.talent_text h1{font-family:Arial, Helvetica, sans-serif; font-size:36px; color:#4f4f4f; font-weight:normal; text-align:center; padding:5px 20px 0px 20px; margin:0px;}
+.talent_text h1 a{color:#4f4f4f;}
+.talent_text h1 a:hover{text-shadow:0px 0px 6px #3B8EBA;}
+.talent_text h2{font-size:13px; color:#777777; font-weight:bold; text-align:center; padding:5px 20px 10px 20px; margin:0px;}
+
+.newsletter_input{width:187px; height:29px; background:url(../images/head_input.png) left top repeat-x; border:1px #d8d8d8 solid; color:#a4a4a4; padding-left:10px; margin:10px 0px 10px 14px;}
+.newsletter_go{width:auto; height:31px; background:url(../images/sign_btn_bg.png) left top repeat-x; border:1px #1e719d solid; font-size:15px; text-align:center; color:#fff; margin-right:5px; padding-bottom:4px; cursor:pointer; padding-left:6px; padding-right:6px;}
+.newsletter_go:hover{background:url(../images/sign_btn_bg_hover.png) left top repeat-x;}
+
+
+.body_right{width:278px; float:right;}
+.register_area{height:45px; background:url(../images/register_head_bg.png) left top repeat-x; font-size:15px; color:#fff; padding:5px 15px; text-align:center; line-height:20px;}
+.register_form{float:left; border-bottom:1px #d1d1d1 solid; border-right:1px #d1d1d1 solid; border-left:1px #d1d1d1 solid; padding:12px 0px 10px 0px; background:url(../images/latest_job_bg.png) left top repeat;}
+.register_input{width:235px; height:29px; background:url(../images/head_input.png) left top repeat-x; border:1px #d8d8d8 solid; color:#a4a4a4; padding-left:10px; margin:0px 0px 7px 14px;}
+.register_select{width:247px; height:31px; background:url(../images/head_input.png) left top repeat-x; border:1px #d8d8d8 solid; color:#a4a4a4; padding:5px; margin:0px 0px 7px 14px;}
+.register_signin{width:87px; height:31px; float:left; background:url(../images/sign_btn_bg.png) left top repeat-x; border:1px #1e719d solid; font-size:15px; text-align:center; color:#fff; margin-right:5px; margin-left:14px; padding-bottom:4px; cursor:pointer;}
+.register_signin:hover{background:url(../images/sign_btn_bg_hover.png) left top repeat-x;}
+
+.latest_contest{width:263px; float:left; background:url(../images/latest_contect_bg.png) left top repeat-x; height:37px; clear:both; margin-top:7px; font-size:15px; color:#fff; line-height:34px; padding-left:15px;}
+.contest_area{width:276px; float:left; border-bottom:1px #d1d1d1 solid; border-right:1px #d1d1d1 solid; border-left:1px #d1d1d1 solid; background:url(../images/latest_job_bg.png) left top repeat;}
+.contest_area img{width:auto; float:left; margin:4px 0px 0px 4px;}
+.contest_area span a{width:auto; float:right; color:#3b8eba; line-height:30px; margin-right:5px; background:url(../images/view_arrow.png) right center no-repeat; padding-right:13px;}
+.contest_area span a:hover{width:auto; float:right; color:#333; background:url(../images/view_arrow_hover.png) right center no-repeat;}
+
+.talent_tab_area{width:715px; float:left; margin-top:6px;}
+.talent_select{width:218px; height:29px; float:left; background:url(../images/head_input.png) left top repeat-x; border:1px #d8d8d8 solid; color:#a4a4a4; padding:4px; margin:10px 0px 0px 20px;}
+
+.banner_area{width:715px; float:left; margin-bottom:6px;}
+
+.title_head{background:url(../images/latest_talent_bg.png) left top repeat-x; height:37px; clear:both; margin-top:7px; font-size:15px; color:#fff; line-height:34px; padding-left:15px;}
+.latest_job_area{width:715px; float:left; background:url(../images/latest_job_bg.png) left top repeat; padding-top:5px; margin-bottom:6px;}
+.job_content{width:695px; border-bottom:1px #9f9f9f dotted; padding:5px 10px; float:left; margin-bottom:5px;}
+.job_content h1{font-size:15px; color:#3b8eba; font-weight:normal; padding:0px 0px 5px 0px;}
+.job_content_img{width:100px; float:left; height:77px; border:1px #9c9c9c solid;}
+.job_details{width:350px; float:left;}
+.job_details h2{font-size:13px; float:left; color:#292829; font-weight:normal; margin-left:10px; line-height:20px;}
+.job_details h5{font-size:12px; float:left; color:#292829; font-weight:normal; margin-left:10px; line-height:20px; margin-right:30px;}
+.job_details h5 span{color:#666666; font-weight:normal;}
+.apply_btn_area{margin-top:50px;}
+.job_apply a{width:auto; float:left; background:url(../images/sign_btn_bg.png) left top repeat-x; padding:0px 15px 0px 15px; line-height:29px; color:#fff; font-size:15px; margin-right:5px;}
+.job_apply a:hover{width:auto; float:left; background:url(../images/sign_btn_bg_hover.png) left top repeat-x; padding:0px 15px 0px 15px; line-height:29px; color:#fff; font-size:15px; margin-right:5px;}
+
+.talent_img{width:715px; float:left; margin:10px 0px 6px 0px;}
+.talent_img img{width:auto; float:left; margin-right:2px;}
+
+.testimonials_area{width:257px; float:left; border-bottom:1px #9f9f9f dotted; padding:10px; background:url(../images/latest_job_bg.png) left top repeat;}
+.testimonials_area h1{font-size:15px; color:#000; font-weight:normal; padding-bottom:3px;}
+.testimonials_area p{width:155px; float:left; font-size:12px; color:#797979; line-height:18px;}
+.testimonials_area img{width:93px; height:94px; float:right; border:1px #d5d5d5 solid; padding:1px;}
+
+.footer_ads{width:1000px; margin:0px auto;}
+.footer_ads_area{width:1000px; float:left; background:url(../images/title_line.png) top left repeat-x; padding-top:15px; margin-top:5px;}
+.footer_ads_left{width:715px; float:left;}
+.footer_ads_right{width:277px; float:right;}
+
+.footer_area{background:#fff url(../images/footer_bg.png) left top repeat-x; clear:both; margin-top:15px; width:100%; float:left;}
+.footer_content{width:1000px; margin:0px auto;}
+.footer_links{width:190px; float:left;}
+.footer_links h1{font-size:15px; color:#3B8EBA; font-weight:normal; padding:15px 0px 10px 0px;}
+.footer_links ul li{font-size:12px; color:#545557; font-weight:normal; line-height:20px; clear:both;}
+.footer_links ul li a{color:#545557;}
+.footer_links ul li a:hover{color:#3B8EBA;}
+
+.follow_us{width:239px; float:left;}
+.follow_us h1{font-size:15px; color:#3B8EBA; font-weight:normal; padding:15px 0px 10px 0px;}
+.follow_us h2{font-size:13px; color:#3B8EBA; font-weight:normal; padding:15px 0px 0px 0px;}
+.follow_us h3{font-size:12px; color:#545557; font-weight:normal; padding:30px 0px 10px 0px; font-style:italic;}
+.follow_us img{width:auto; float:left; margin-right:10px;}
+
+.contact_id{width:auto; float:left; color:#3B8EBA; font-size:13px; line-height:24px;}
+.contact_id a{color:#545557;}
+.contact_id a:hover{color:#3B8EBA;}
+
+.network_bg{width:100%; float:left; background:url(../images/network_bg.png) left top repeat-x;}
+.network_area{width:1000px; margin:0px auto;}
+.network_text{width:70px; height:34px; float:left; background:url(../images/network_arrow.png) right center no-repeat; font-size:13px; color:#fff; padding:10px 0px;}
+.network_area ul{width:auto; float:left;}
+.network_area ul li{width:auto; height:34px; float:left; background:url(../images/network_line.png) right center no-repeat; padding:10px 20px; color:#fff;}
+.network_area ul li a{color:#fff;}
+.network_area ul li a:hover{color:#0d4d6f;}
+.network_area ul li a span{color:#0d4d6f;}
+.network_area ul li a:hover span{color:#fff;}
+
+
+

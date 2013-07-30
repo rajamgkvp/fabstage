@@ -1,0 +1,262 @@
+<?php
+include('../constants.php');
+include('chk_session_admin.php');
+if($_SESSION['username'] == ''){
+?>
+<script language="javascript">
+	window.location.href="index.php";
+</script>
+<?php
+}
+?>
+<html>
+<head>
+<title><?=TITLE?></title>
+<link rel="stylesheet" href="admin_img/css/template_css.css" type="text/css" />
+<link rel="stylesheet" href="admin_img/css/theme.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript">
+	var GB_ROOT_DIR = "greybox/";
+</script>
+
+<script type="text/javascript" src="greybox/AJS.js"></script>
+<script type="text/javascript" src="greybox/AJS_fx.js"></script>
+<script type="text/javascript" src="greybox/gb_scripts.js"></script>
+<link href="greybox/gb_styles.css" rel="stylesheet" type="text/css" media="all" />
+</HEAD>
+<body>
+
+
+<? include_once('admin_header.php')?>
+
+<table class="adminform" border="5">
+<tr>
+	<td valign="top">
+	<?
+	
+switch($_REQUEST['page_id']){
+
+	case 'add_student_id' :
+		include_once('add_student_id.php');
+	break;
+	case 'id_listing' :
+		include_once('id_listing.php');
+	break;
+	case 'ud_welcome' :
+		include_once('ud_welcome.php');
+	break;
+	
+	case '3days_content' :
+		include_once('3days_content.php');
+	break;
+
+	case '7days_content' :
+		include_once('7days_content.php');
+	break;
+
+	case '7days_2content' :
+		include_once('7days_2content.php');
+	break;
+
+	case '7days_3content' :
+		include_once('7days_3content.php');
+	break;
+
+	case '7days_4content' :
+		include_once('7days_4content.php');
+	break;
+
+    case '15days_content' :
+		include_once('15days_content.php');
+	break;
+	
+	case 'add_test' :
+		include_once('add_test.php');
+	break;
+	 case 'test_list' :
+		include_once('test_list.php');
+	break;
+	 case 'add_qns' :
+		include_once('add_qns.php');
+	break;
+	 case 'qns_list' :
+		include_once('qns_list.php');
+	break;
+ case 'add_ca_verbal' :
+		include_once('add_ca_verbal.php');
+	break;
+
+	case 'user' :
+		include_once('add_user.php');
+	break;
+
+	case 'user_list' :
+		include_once('user_list.php');
+	break;
+
+    case 'member_list' :
+		include_once('member_list.php');
+	break;
+
+	case 'logs' :
+		include_once('logs.php');
+	break;
+
+	case 'add_news' :
+		include_once('add_news.php');
+	break;
+
+	case 'news_list' :
+		include_once('news_list.php');
+	break;
+
+	case 'privacy' :
+		include_once('privacy_policy.php');
+	break;
+
+	case 'term_cond' :
+		include_once('term_condition.php');
+	break;
+
+	case 'disclaimer' :
+		include_once('disclaimer.php');
+	break;
+
+	case 'about_us' :
+		include_once('about_us.php');
+	break;
+
+	case 'add_faq' :
+		include_once('add_faq.php');
+	break;
+	case 'faq_list' :
+		include_once('faq_list.php');
+	break;
+
+	case 'add_facl' :
+		include_once('add_facl.php');
+	break;
+	case 'facl_listing' :
+		include_once('facl_listing.php');
+	break;
+	case 'facl_listing' :
+		include_once('facl_listing.php');
+	break;
+	case 'facl_listing' :
+		include_once('facl_listing.php');
+	break;
+	case 'event_listing' :
+		include_once('event_listing.php');
+	break;
+	case 'add_event' :
+		include_once('add_event.php');
+	break;
+	case 'add_student' :
+		include_once('add_student.php');
+	break;
+
+	case 'cstudent_listing' :
+		include_once('cstudent_listing.php');
+	break;
+	
+	case 'deadline_list' : 
+		include_once('deadline_list.php');
+	break;
+	
+	case 'add_deadline' :
+		include_once('add_deadline.php');
+	break;
+
+		case 'pstudent_listing' :
+		include_once('pstudent_listing.php');
+	break;
+	case 'add_class_details' :
+		include_once('add_class_details.php');
+	break;
+
+	case 'class_details_list' :
+		include_once('class_details_list.php');
+	break;
+	case 'add_quant_details' :
+		include_once('add_quant_details.php');
+	break;
+
+	case 'quant_details_list' :
+		include_once('quant_details_list.php');
+	break;
+	case 'add_track_page' :
+		include_once('add_track_page.php');
+	break;
+
+	case 'manage_theory' :
+		include_once('manage_theory.php');
+	break;
+	case 'theory_listing' :
+		include_once('theory_listing.php');
+	break;
+	case 'add_theory_questions' :
+		include_once('add_theory_questions.php');
+	break;
+	case 'theory_questions_listing' :
+		include_once('theory_questions_listing.php');
+	break;
+
+    case 'add_topic' :
+		include_once('add_topic.php');
+    break; 
+
+
+	case 'topic_listing' :
+		include_once('topic_listing.php');
+    break;
+
+    case 'add_theory_homework':
+		include_once('add_theory_homework.php');
+	break;
+
+	case 'theory_homework_listing':
+		include_once('theory_homework_listing.php');
+	break;
+
+	
+
+
+
+	case 'add_math_test' :
+		include_once('add_math_test.php');
+	break;
+	case 'math_test_list' :
+		include_once('math_test_list.php');
+	break;
+	case 'add_math_qns' :
+		include_once('add_math_qns.php');
+	break;
+	case 'math_qns_list' :
+		include_once('math_qns_list.php');
+	break;
+
+	case 'add_match_pic' :
+		include_once('add_match_pic.php');
+	break;
+
+
+
+	default :
+	?>
+		<script language="javascript">
+			window.location.href = 'admin_home.php';
+		</script>
+		<?
+	}
+	?>
+	</td>
+</tr>
+</table>
+</div>
+<?
+include_once('admin_footer.php');
+?>
+</body>
+</html>

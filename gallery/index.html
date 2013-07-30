@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css" />
+	<script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
+
+	
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		$('.fancybox').fancybox();
+
+		$('.fancybox-thumbs').fancybox({
+				prevEffect : true,
+				nextEffect : true,
+
+				closeBtn  : true,
+				arrows    : true,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  :50,
+						height :50
+					}
+				}
+			});
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+</head>
+<body>
+	<ul class="thumbnail-tabs">
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/4_b.jpg"><img src="images/4_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+      </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/3_b.jpg"><img src="images/3_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/2_b.jpg"><img src="images/2_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/1_b.jpg"><img src="images/1_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+        
+        <li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/4_b.jpg"><img src="images/4_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/3_b.jpg"><img src="images/3_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/2_b.jpg"><img src="images/2_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/1_b.jpg"><img src="images/1_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+        
+        <li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/4_b.jpg"><img src="images/4_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/3_b.jpg"><img src="images/3_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/2_b.jpg"><img src="images/2_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/1_b.jpg"><img src="images/1_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+        
+        <li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/4_b.jpg"><img src="images/4_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/3_b.jpg"><img src="images/3_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+		<span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/2_b.jpg"><img src="images/2_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+
+		<li>
+        <span class="img-title">Image img-title here</span><a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/1_b.jpg"><img src="images/1_s.jpg" alt="" /></a>
+        <div style="float:right;"><a href="#"><img src="images/edit_icon.png" title="Edit"></a> <a href="#"><img src="images/close_icon.png" title="Delete"></a> <a href="#"><img src="images/set_profile_icon.png" title="Set Profile"></a></div>
+        </li>
+	</ul>
+
+	</body>
+</html>
